@@ -1,0 +1,30 @@
+# ========================
+# Java backend build files
+# ========================
+/backend/bin/
+/backend/build/
+/backend/target/
+
+# ==========================
+# Node frontend build files
+# ==========================
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
+
+# =========================
+# IntelliJ IDEA project files
+# =========================
+.idea/
+*.iml
+
+# =========================
+# VS Code project settings
+# =========================
+.vscode/
+
+# =========================
+# OS-generated files
+# =========================
+.DS_Store
+Thumbs.db

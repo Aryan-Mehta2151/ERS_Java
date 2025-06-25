@@ -1,0 +1,69 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+}
+
+.modal {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #e0f7fa;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.modal p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #00ffff;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Buttons */
+.cancel-btn,
+.confirm-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Cancel = neon border style */
+.cancel-btn {
+  background: transparent;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+}
+
+.cancel-btn:hover {
+  background: rgba(0, 255, 255, 0.1);
+}
+
+/* Confirm = red delete */
+.confirm-btn {
+  background: linear-gradient(135deg, #ff4e50, #f44336);
+  color: white;
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.2);
+}
+
+.confirm-btn:hover {
+  background: linear-gradient(135deg, #e53935, #d32f2f);
+}
