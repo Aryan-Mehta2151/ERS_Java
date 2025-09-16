@@ -1,0 +1,84 @@
+/* src/Styles/SearchApplicants.css */
+.search-applicants-container {
+  padding: 40px;
+  background: linear-gradient(to right, #000428, #004e92);
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.search-applicants-title {
+  font-size: 2rem;
+  color: #00f2ff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.loading-text,
+.no-applicants-text {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.applicant-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.applicant-card {
+  background-color: #0f1a2b;
+  border: 2px solid #00f2ff;
+  border-radius: 12px;
+  padding: 20px;
+  transition: 0.3s ease;
+  box-shadow: 0 0 12px #00f2ff70;
+}
+
+.applicant-card h3 {
+  margin-bottom: 10px;
+  color: #00f2ff;
+}
+
+.applicant-card p {
+  margin: 5px 0;
+}
+
+.resume-data {
+  margin-top: 15px;
+  background-color: #1b2a40;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.resume-data p {
+  color: #d1ecff;
+  font-size: 0.9rem;
+}
+
+.refer-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #00f2ff;
+  border: none;
+  color: #000428;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.refer-button:hover {
+  background: #00c3d1;
+}
+.resume-data {
+  margin-top: 15px;
+  background-color: #1b2a40;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.resume-data p {
+  color: #d1ecff;
+  font-size: 0.9rem;
+}

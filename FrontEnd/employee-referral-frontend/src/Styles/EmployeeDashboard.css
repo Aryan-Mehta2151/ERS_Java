@@ -1,0 +1,56 @@
+.employee-dashboard {
+  padding: 50px;
+  background: #0f172a;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #38bdf8;
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.dashboard-card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 30px;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 30px rgba(56, 189, 248, 0.3);
+}
+
+.gradient-blue {
+  background: linear-gradient(135deg, #0ea5e9, #38bdf8, #0ea5e9);
+  color: white;
+}
+
+.gradient-green {
+  background: linear-gradient(135deg, #10b981, #34d399, #10b981);
+  color: white;
+}
+
+.gradient-purple {
+  background: linear-gradient(135deg, #8b5cf6, #a78bfa, #8b5cf6);
+  color: white;
+}
+
+.gradient-orange {
+  background: linear-gradient(135deg, #f97316, #fb923c, #f97316);
+  color: white;
+}

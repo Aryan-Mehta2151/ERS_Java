@@ -1,0 +1,123 @@
+/* General container */
+.hr-dashboard-container {
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fb;
+  min-height: 100vh;
+}
+
+/* Header section */
+.hr-dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.hr-dashboard-header h1 {
+  font-size: 2rem;
+  color: #333;
+  margin: 0;
+}
+
+.hr-dashboard-subtext {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Logout button */
+.logout-btn {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #d62828;
+}
+
+/* Summary cards section */
+.hr-summary-section {
+  margin-bottom: 40px;
+}
+
+.hr-summary-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.hr-summary-card {
+  flex: 1;
+  min-width: 200px;
+  background-color: white;
+  padding: 25px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.hr-summary-card:hover {
+  transform: translateY(-5px);
+}
+
+.hr-summary-card h3 {
+  margin: 0;
+  font-size: 2rem;
+  color: #1d3557;
+}
+
+.hr-summary-card p {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Section title */
+.section-title {
+  font-size: 1.5rem;
+  margin: 25px 0 15px;
+  color: #1d3557;
+}
+
+/* Action cards */
+.hr-action-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.hr-action-card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+  transition: all 0.2s ease-in-out;
+}
+
+.hr-action-card:hover {
+  transform: translateY(-5px);
+  border-color: #a8dadc;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.hr-action-card h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #264653;
+}
+
+.hr-action-card p {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #666;
+}
