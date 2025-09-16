@@ -1,0 +1,146 @@
+/* Background & Container */
+.posted-jobs-container {
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f3f4f7, #dfe9f3);
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.posted-jobs-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Error */
+.error-message {
+  color: white;
+  background-color: #e74c3c;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+/* Cards Layout */
+.job-cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 25px;
+}
+
+/* Card */
+.job-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px 25px 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.job-card h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+}
+
+.job-card p {
+  margin: 8px 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+.job-card strong {
+  color: #222;
+}
+
+/* Buttons inside card */
+.job-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+.job-actions button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.job-actions button:hover {
+  opacity: 0.9;
+}
+
+.job-actions button:first-child {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+.job-actions .delete-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* Edit Form */
+.edit-form {
+  margin-top: 40px;
+  background-color: #ffffff;
+  padding: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.edit-form input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border 0.3s;
+}
+
+.edit-form input:focus {
+  outline: none;
+  border-color: #2980b9;
+}
+
+.save-btn {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.save-btn:hover {
+  background-color: #1e8449;
+}
